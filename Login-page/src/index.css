@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Shadcn / Sonner UI custom styles (if any) */
+:root {
+  --normal-bg: theme(colors.neutral.100);
+  --normal-text: theme(colors.neutral.900);
+  --normal-border: theme(colors.neutral.300);
+}
+
+/* Optional: Custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
