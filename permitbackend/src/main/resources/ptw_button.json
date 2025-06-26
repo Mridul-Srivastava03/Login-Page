@@ -1,0 +1,647 @@
+{
+  "Create": {
+    "activeButtonsText": [
+      "Update Details"
+    ],
+    "activeButtonActions": [
+      "Update Details"
+    ],
+    "deactivateButtonText": "Details to be filled ",
+    "userType": "Permit_Receiver",
+    "history": "$1 New Permit has been created $2",
+    "notification": "Hey, you are added to the permit for $2",
+    "stage": "PREPARATION STAGE"
+  },
+  "Update Details": {
+    "activeButtonsText": [
+      "Upload Risk Assessment"
+    ],
+    "activeButtonActions": [
+      "Upload Risk Assessment"
+    ],
+    "deactivateButtonText": "Risk assessment to be uploaded ",
+    "userType": "Permit_Receiver",
+    "history": "$1 New Permit has been created $2",
+    "notification": "Hey, you are added to the permit for $2",
+    "stage": "PREPARATION STAGE"
+  },
+  "Create-Cold": {
+    "activeButtonsText": [
+      "Accept",
+      "Reject"
+    ],
+    "activeButtonActions": [
+      "Accept",
+      "Reject"
+    ],
+    "deactivateButtonText": "Approval Pending from Custodian",
+    "userType": "Custodian",
+    "history": "$1 New Permit Created $2",
+    "notification": "$1 New Permit Created $2",
+    "stage": "PREPARATION STAGE"
+  },
+  "Create-Excavation": {
+    "activeButtonsText": [
+      "IT Approval",
+      "Reject"
+    ],
+    "activeButtonActions": [
+      "IT Approval",
+      "Reject"
+    ],
+    "deactivateButtonText": "Approval Pending from IT Head",
+    "userType": "IT_Head",
+    "history": "$1 New Permit Created $2",
+    "notification": "$1 New Permit Created $2",
+    "stage": "PREPARATION STAGE"
+  },
+  "Details Update By Requisitioner": {
+    "activeButtonsText": [
+      "Update Details"
+    ],
+    "activeButtonActions": [
+      "Update Details"
+    ],
+    "deactivateButtonText": "Permit Details Update Pending",
+    "userType": "Permit_Receiver",
+    "history": "$1 New Permit Created $2",
+    "notification": "$1 New Permit Created $2",
+    "stage": "PREPARATION STAGE"
+  },
+  "IT Approval": {
+    "activeButtonsText": [
+      "Horticulture Approval",
+      "Reject"
+    ],
+    "activeButtonActions": [
+      "Horticulture Approval",
+      "Reject"
+    ],
+    "deactivateButtonText": "Approval Pending Horticulture Head",
+    "userType": "Horticulture_Head",
+    "history": "$1 IT head Approved",
+    "notification": "$1 IT head Approved",
+    "stage": "PREPARATION STAGE"
+  },
+  "Horticulture Approval": {
+    "activeButtonsText": [
+      "Instrumentation Approval",
+      "Reject"
+    ],
+    "activeButtonActions": [
+      "Instrumentation Approval",
+      "Reject"
+    ],
+    "deactivateButtonText": "Approval Pending Instrumentation",
+    "userType": "Instrumental_Head",
+    "history": "$1 Approved by Horticulture  head",
+    "notification": "$1 Approved by Horticulture  head",
+    "stage": "PREPARATION STAGE"
+  },
+  "Instrumentation Approval": {
+    "activeButtonsText": [
+      "Mechanical Approval",
+      "Reject"
+    ],
+    "activeButtonActions": [
+      "Mechanical Approval",
+      "Reject"
+    ],
+    "deactivateButtonText": "Approval Pending Mechanical",
+    "userType": "Mechanical_Head",
+    "history": "$1 Approved by Instrumentation  head",
+    "notification": "$1 Approved by Instrumentation  head",
+    "stage": "PREPARATION STAGE"
+  },
+  "Mechanical Approval": {
+    "activeButtonsText": [
+      "Utility Approval",
+      "Reject"
+    ],
+    "activeButtonActions": [
+      "Utility Approval",
+      "Reject"
+    ],
+    "deactivateButtonText": "Approval Pending Utility",
+    "userType": "Utility_Head",
+    "history": "$1 Approved by Mechanical head",
+    "notification": "$1 Approved by Mechanical  head",
+    "stage": "PREPARATION STAGE"
+  },
+  "Utility Approval": {
+    "activeButtonsText": [
+      "Electrical Approval",
+      "Reject"
+    ],
+    "activeButtonActions": [
+      "Electrical Approval",
+      "Reject"
+    ],
+    "deactivateButtonText": "Approval pending from Electrical Head",
+    "userType": "Electrical_Head",
+    "history": "$1 Utility head approved",
+    "notification": "$1 Utility head approved",
+    "stage": "PREPARATION STAGE"
+  },
+  "Electrical Approval": {
+    "activeButtonsText": [
+      "Upload TBT"
+    ],
+    "activeButtonActions": [
+      "Upload TBT"
+    ],
+    "deactivateButtonText": "Approval pending from Electrical Head",
+    "userType": "Permit_Receiver",
+    "history": "$1 Electrical Head Approve",
+    "notification": "$1 Approved Permit",
+    "stage": "PREPARATION STAGE"
+  },
+  "Work With Isolation": {
+    "activeButtonsText": [
+      "Edit For Work With Isolation"
+    ],
+    "activeButtonActions": [
+      "Edit For Work With Isolation"
+    ],
+    "deactivateButtonText": "Edit For Work Without Isolation",
+    "userType": "Permit_Issuer",
+    "history": "$1 approved for starting work",
+    "notification": "$1 Approved for Starting Work for $2",
+    "stage": "PREPARATION STAGE"
+  },
+  "Work Without Isolation": {
+    "activeButtonsText": [
+      "Upload Risk Assessment"
+    ],
+    "activeButtonActions": [
+      "Upload Risk Assessment"
+    ],
+    "deactivateButtonText": "Risk assessment document pending from initiator ",
+    "userType": "Permit_Receiver",
+    "history": "$1 New Permit has been created",
+    "notification": "Hey, you are added to the permit for $2",
+    "stage": "PREPARATION STAGE"
+  },
+  "Edit For Work With Isolation": {
+    "activeButtonsText": [
+      "Upload Risk Assessment"
+    ],
+    "activeButtonActions": [
+      "Upload Risk Assessment"
+    ],
+    "deactivateButtonText": "Risk assessment document pending from initiator ",
+    "userType": "Permit_Receiver",
+    "history": "$1 opted for work with isoaltion",
+    "notification": "$1 opted for work with isoaltion for $2",
+    "stage": "PREPARATION STAGE"
+  },
+  "Upload Risk Assessment": {
+    "activeButtonsText": [
+      "Accept",
+      "Reject"
+    ],
+    "activeButtonActions": [
+      "Accept",
+      "Reject"
+    ],
+    "deactivateButtonText": "Approval Pending from Custodian",
+    "userType": "HSE",
+    "history": "$1 Uploaded Risk Assessment",
+    "notification": "Approval Pending from HSE Team",
+    "stage": "PREPARATION STAGE"
+  },
+  "Upload Risk Assessment Without HSE": {
+    "activeButtonsText": [
+      "Accept",
+      "Reject"
+    ],
+    "activeButtonActions": [
+      "Accept",
+      "Reject"
+    ],
+    "deactivateButtonText": "Approval Pending from Custodian",
+    "userType": "Custodian",
+    "history": "$1 Uploaded Risk Assessment",
+    "notification": "$1 Uploaded Risk Assessment",
+    "stage": "PREPARATION STAGE"
+  },
+  "HSE Approval": {
+    "activeButtonsText": [
+      "Accept",
+      "Reject"
+    ],
+    "activeButtonActions": [
+      "Accept",
+      "Reject"
+    ],
+    "deactivateButtonText": "Approval Pending from Custodian",
+    "userType": "Custodian",
+    "history": "$2 Approved by $1",
+    "notification": "$2 Approved by $1",
+    "stage": "PREPARATION STAGE"
+  },
+  "Accept": {
+    "activeButtonsText": [
+      "Isolation Initiation",
+      "Reject"
+    ],
+    "activeButtonActions": [
+      "Isolation Initiation",
+      "Reject"
+    ],
+    "deactivateButtonText": "Approval pending from  issuer",
+    "userType": "Permit_Issuer",
+    "history": "$1 Accepted the permit",
+    "notification": "$1 Approved for isolation of $2",
+    "stage": "PREPARATION STAGE"
+  },
+  "Approve Work With Isolation": {
+    "activeButtonsText": [
+      "Isolation Initiation",
+      "Reject"
+    ],
+    "activeButtonActions": [
+      "Isolation Initiation",
+      "Reject"
+    ],
+    "deactivateButtonText": "Approval pending from issuer",
+    "userType": "Permit_Issuer",
+    "history": "$1 Accepted the permit",
+    "notification": "$1 Approved for isolation of $2",
+    "stage": "PREPARATION STAGE"
+  },
+  "Isolation Initiation": {
+    "activeButtonsText": [
+      "Start Isolation"
+    ],
+    "activeButtonActions": [
+      "Start Isolation"
+    ],
+    "deactivateButtonText": "Isolation In-Progress",
+    "userType": "Isolation_Technician",
+    "history": "$1 assigned $3",
+    "notification": "$1 assigned $3 for Isolation of $2",
+    "stage": "PREPARATION STAGE"
+  },
+  "Start Isolation": {
+    "activeButtonsText": [
+      "Put Padlock"
+    ],
+    "activeButtonActions": [
+      "Put Padlock"
+    ],
+    "deactivateButtonText": "Isolation In-Progress",
+    "userType": "Isolation_Technician",
+    "history": "$1 started isolation for $2",
+    "notification": "$1 technician Started Isolation for $2",
+    "stage": "ISOLATION STAGE"
+  },
+  "Put Padlock": {
+    "activeButtonsText": [
+      "Upload Image"
+    ],
+    "activeButtonActions": [
+      "Upload Image"
+    ],
+    "deactivateButtonText": "Isolation In-Progress",
+    "userType": "Isolation_Technician",
+    "history": "$1 Put Padlock",
+    "notification": "Put Padlock",
+    "stage": "ISOLATION STAGE"
+  },
+  "Upload Image": {
+    "activeButtonsText": [
+      "Finish Isolation"
+    ],
+    "activeButtonActions": [
+      "Finish Isolation"
+    ],
+    "deactivateButtonText": "Isolation In-Progress",
+    "userType": "Isolation_Technician",
+    "history": "$1 Uploaded Image",
+    "notification": "Uploaded Image",
+    "stage": "ISOLATION STAGE"
+  },
+  "Finish Isolation": {
+    "activeButtonsText": [
+      "Approve To Start Work"
+    ],
+    "activeButtonActions": [
+      "Approve To Start Work"
+    ],
+    "deactivateButtonText": "Approval Pending from Issuer",
+    "userType": "Permit_Issuer",
+    "history": "$1 finished isolation for $2",
+    "notification": "$1 finished isolation for $2",
+    "stage": "WORK IN PROGRESS"
+  },
+  "Approve To Start Work": {
+    "activeButtonsText": [
+      "Upload TBT"
+    ],
+    "activeButtonActions": [
+      "Upload TBT"
+    ],
+    "deactivateButtonText": "Work to be started",
+    "userType": "Permit_Receiver",
+    "history": "$1 approved for starting work",
+    "notification": "$1 Approved for Starting Work for $2",
+    "stage": "WORK IN PROGRESS"
+  },
+  "Upload TBT": {
+    "activeButtonsText": [
+      "Start Work With Facial Auth"
+    ],
+    "activeButtonActions": [
+      "Start Work With Facial Auth"
+    ],
+    "deactivateButtonText": "Work to be started",
+    "userType": "Permit_Receiver",
+    "history": "$1 Uploaded the TBT document",
+    "notification": "$1 onboarded the technician for work",
+    "stage": "WORK IN PROGRESS"
+  },
+  "Start Work With Facial Auth": {
+    "activeButtonsText": [
+      "End Work With Facial Auth",
+      "Trial Run",
+      "Technician Handover"
+    ],
+    "activeButtonActions": [
+      "End Work With Facial Auth",
+      "Trial Run",
+      "Technician Handover"
+    ],
+    "deactivateButtonText": "Work In-Progress",
+    "userType": "Permit_Receiver",
+    "history": "$1 started the work",
+    "notification": "Work started by $1",
+    "stage": "WORK IN PROGRESS"
+  },
+  "Trial Run": {
+    "activeButtonsText": [
+      "Deisolation Initiation"
+    ],
+    "activeButtonActions": [
+      "Deisolation Initiation"
+    ],
+    "deactivateButtonText": "Work In-Progress",
+    "userType": "Isolation_Technician",
+    "history": "$1 Requested for trial run",
+    "notification": "Trial run requested by $1",
+    "stage": "WORK IN PROGRESS"
+  },
+  "Technician Handover": {
+    "activeButtonsText": [
+      "Upload TBT"
+    ],
+    "activeButtonActions": [
+      "Upload TBT"
+    ],
+    "deactivateButtonText": "Work to be started",
+    "userType": "Permit_Receiver",
+    "history": "$1 Work is partially completed",
+    "notification": "$1 work is partially completed for $2",
+    "stage": "WORK IN PROGRESS"
+  },
+  "Start Work": {
+    "activeButtonsText": [
+      "End Work With Facial Auth",
+      "Testing Data"
+    ],
+    "activeButtonActions": [
+      "End Work With Facial Auth",
+      "Testing Data"
+    ],
+    "deactivateButtonText": "Work In-Progress",
+    "userType": "Permit_Receiver",
+    "history": "$1 started the work",
+    "notification": "Work started by $1",
+    "stage": "WORK IN PROGRESS"
+  },
+  "Testing Data": {
+    "activeButtonsText": [
+      "End Work With Facial Auth",
+      "Testing Data"
+    ],
+    "activeButtonActions": [
+      "End Work With Facial Auth",
+      "Testing Data"
+    ],
+    "deactivateButtonText": "Work In-Progress",
+    "userType": "Permit_Receiver",
+    "history": "$1 started the work",
+    "notification": "Work started by $1",
+    "stage": "WORK IN PROGRESS"
+  },
+  "End Work With Facial Auth": {
+    "activeButtonsText": [
+      "Deisolation Initiation"
+    ],
+    "activeButtonActions": [
+      "Deisolation Initiation"
+    ],
+    "deactivateButtonText": "Verification Pending De-isolation",
+    "userType": "Isolation_Technician",
+    "history": "$1 ended the work",
+    "notification": "Work ended by $1",
+    "stage": "WORK IN PROGRESS"
+  },
+  "Verify Approval For De-Isolation": {
+    "activeButtonsText": [
+      "Deisolation Initiation"
+    ],
+    "activeButtonActions": [
+      "Deisolation Initiation"
+    ],
+    "deactivateButtonText": "De-Isolation In-Progress",
+    "userType": "Isolation_Technician",
+    "history": "$1 assigned $3 for de-isolation",
+    "notification": "$1 assigned $3 de-isolation for $2",
+    "stage": "APPROVAL FOR DE-ISOLATION"
+  },
+  "Deisolation Initiation": {
+    "activeButtonsText": [
+      "Start Deisolation"
+    ],
+    "activeButtonActions": [
+      "Start Deisolation"
+    ],
+    "deactivateButtonText": "De-Isolation In-Progress",
+    "userType": "Isolation_Technician",
+    "history": "$1 Started Deisolation for $2",
+    "notification": "$1 started de-isolation for $2",
+    "stage": "DE-ISOLATION"
+  },
+  "Start Deisolation": {
+    "activeButtonsText": [
+      "Remove Padlock"
+    ],
+    "activeButtonActions": [
+      "Remove Padlock"
+    ],
+    "deactivateButtonText": "De-Isolation In-Progress",
+    "userType": "Isolation_Technician",
+    "history": "$1 Started Deisolation",
+    "notification": "Started Deisolation",
+    "stage": "DE-ISOLATION"
+  },
+  "Remove Padlock": {
+    "activeButtonsText": [
+      "Finish Deisolation"
+    ],
+    "activeButtonActions": [
+      "Finish Deisolation"
+    ],
+    "deactivateButtonText": "De-Isolation In-Progress",
+    "userType": "Isolation_Technician",
+    "history": "$1 conmfirmed the padlock $3 state for de-isolation for $2",
+    "notification": "$1 confirmed unlocking the Isolation point for $2",
+    "stage": "DE-ISOLATION"
+  },
+  "Finish Deisolation": {
+    "activeButtonsText": [
+      "Work closure"
+    ],
+    "activeButtonActions": [
+      "Work closure"
+    ],
+    "deactivateButtonText": "Check for Handover",
+    "userType": "Permit_Issuer",
+    "history": "$1 finished de-isolation for $2",
+    "notification": "$1 finished de-isolation for $2",
+    "stage": "WORK IN PROGRESS"
+  },
+  "Finish Deisolation Trial Run": {
+    "activeButtonsText": [
+      "Initiate Trial Run"
+    ],
+    "activeButtonActions": [
+      "Initiate Trial Run"
+    ],
+    "deactivateButtonText": "Check for Handover",
+    "userType": "Permit_Issuer",
+    "history": "$1 finished de-isolation for $2",
+    "notification": "$1 finished de-isolation for $2",
+    "stage": "WORK IN PROGRESS"
+  },
+  "Initiate Trial Run": {
+    "activeButtonsText": [
+      "Rework Required",
+      "Rework Not Required"
+    ],
+    "activeButtonActions": [
+      "Rework Required",
+      "Rework Not Required"
+    ],
+    "deactivateButtonText": "Trial Run In-Progress",
+    "userType": "Permit_Receiver",
+    "history": "$1 initiated trial-run for $2",
+    "notification": "$1 initiated trial-run",
+    "stage": "TRIAL"
+  },
+  "Rework Required": {
+    "activeButtonsText": [
+      "Isolation Initiation"
+    ],
+    "activeButtonActions": [
+      "Isolation Initiation"
+    ],
+    "deactivateButtonText": "Reworked In-progress",
+    "userType": "Isolation_Issuer",
+    "history": "$1 requested for rework",
+    "notification": "$1 requested for rework for $2",
+    "stage": "TRIAL"
+  },
+  "Rework Not Required": {
+    "activeButtonsText": [
+      "Work closure"
+    ],
+    "activeButtonActions": [
+      "Work closure"
+    ],
+    "deactivateButtonText": "Closure Pending",
+    "userType":"Permit_Issuer",
+    "history": "$1 requested for the permit closure",
+    "notification": "$1 completed trial-run for $2",
+    "stage": "WORK CLOSURE"
+  },
+  "Work closure": {
+    "activeButtonsText": [
+      "Permit Close"
+    ],
+    "activeButtonActions": [
+      "Permit Close"
+    ],
+    "deactivateButtonText": "Closure Pending",
+    "userType": "Custodian",
+    "history": "$1 Did permit Handover",
+    "notification": "$1 Handed over the permit",
+    "stage": "WORK CLOSURE"
+  },
+  "Permit Close": {
+    "activeButtonsText": [
+      "Audit Trail"
+    ],
+    "activeButtonActions": [
+      "Audit Trail"
+    ],
+    "deactivateButtonText": "Audit Trail",
+    "userType": "Permit_Receiver",
+    "history": "$1 closed the permit",
+    "notification": "$1 closed the permit for $2",
+    "stage": "DONE"
+  },
+  "Audit Trail": {
+    "activeButtonsText": [
+      "Permit Close"
+    ],
+    "activeButtonActions": [
+      "Permit Close"
+    ],
+    "deactivateButtonText": "Permit Close",
+    "userType": "Permit_Receiver",
+    "history": "",
+    "notification": "",
+    "stage": "DONE"
+  },
+  "Paused": {
+    "activeButtonsText": [
+      ""
+    ],
+    "activeButtonActions": [
+      ""
+    ],
+    "deactivateButtonText": "Approval pending from Issuer",
+    "userType": "",
+    "history": "$1 created the permit, Wait for other teams' approval",
+    "notification": "Hey, you have been added to the permit for $2. Wait for other teams'teams' approval",
+    "stage": "PAUSE"
+  },
+  "HSE Hold": {
+    "activeButtonsText": [
+      "HSE Un-Hold"
+    ],
+    "activeButtonActions": [
+      "HSE Un-Hold"
+    ],
+    "deactivateButtonText": "Hold From HSE Team",
+    "userType": "HSE",
+    "history": "$1 Hold From HSE Team",
+    "notification": "Hold From HSE Team",
+    "stage": "PAUSE"
+  },
+  "Reject": {
+    "activeButtonsText": [
+      "Audit Trail"
+    ],
+    "activeButtonActions": [
+      "Audit Trail"
+    ],
+    "deactivateButtonText": "Audit Trail",
+    "userType": "Custodian",
+    "history": "$1 Rejected Permit",
+    "notification": "Permit Rejected",
+    "stage": "PAUSE"
+  }
+}
